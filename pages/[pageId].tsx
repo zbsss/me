@@ -29,12 +29,12 @@ export const getStaticProps = async (context) => {
 }
 
 export async function getStaticPaths() {
-  if (isDev) {
-    return {
-      paths: [],
-      fallback: true
-    }
-  }
+  // if (isDev) {
+  //   return {
+  //     paths: [],
+  //     fallback: false
+  //   }
+  // }
 
   const siteMaps = await getSiteMaps()
 
@@ -47,7 +47,7 @@ export async function getStaticPaths() {
       }))
     ),
     // paths: [],
-    fallback: true
+    fallback: false
   }
 
   console.log(ret.paths)

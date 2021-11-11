@@ -12,6 +12,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "deploy": "vercel --prod",
     "deps": "run-s deps:*",
@@ -47,7 +48,6 @@
     "react-notion-x": "^4.11.0",
     "react-static-tweets": "^0.5.3",
     "react-use": "^17.2.4",
-    "static-tweets": "^0.5.3",
     "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
