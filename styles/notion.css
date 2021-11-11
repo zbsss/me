@@ -339,3 +339,24 @@
   border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
   border-image-slice: 1;
 }
+
+.notion-collection-header {
+  margin-bottom: 5px;
+}
+
+.notion-collection-header-title {
+  font-size: 2em;
+}
+
+.notion-gallery-grid .notion-page-title-text {
+  font-size: 1.8em;
+}
+
+.notion-header .nav-header {
+  margin: 0;
+  margin-left: 1em;
+}
+
+.notion-h1, .notion-h2, .notion-h3 {
+  text-align: center;
+}
