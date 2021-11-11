@@ -5,6 +5,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = withBundleAnalyzer({
+  basePath: '/me',
+  assetPrefix: '/me/',
   images: {
     domains: ['pbs.twimg.com']
   }
